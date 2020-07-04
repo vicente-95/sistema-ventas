@@ -7,11 +7,18 @@ import { AppRoutingModule } from './app-routing.module';
 // Modulos
 import { PagesModule } from './pages/pages.module';
 
+// Temporal
+import { FormsModule } from '@angular/forms';
+
+// Servicios
+import { ServiceModule } from './services/service.module';
+
+
 // Componentes
 import { AppComponent } from './app.component';
 import { LoginComponent } from './login/login.component';
 import { RegisterComponent } from './login/register.component';
-import { FormsModule } from '@angular/forms';
+
 
 
 
@@ -26,6 +33,7 @@ import { FormsModule } from '@angular/forms';
     AppRoutingModule,
     PagesModule,
     FormsModule,
+    ServiceModule,
   ],
   providers: [],
   bootstrap: [AppComponent]
